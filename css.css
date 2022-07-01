@@ -1,10 +1,12 @@
-
 a{
   font-size: larger;
 text-decoration: none ; }
+.R2{position:relative;top: 6px;left:76% ;}
 .R2:hover{color:white;
   background-color: blueviolet;}
-
+.t1{text-align: center; position: relative; top: 70px;color :black;font-weight: bold ;font-size: xxx-large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+  .t2{text-align: center; position: relative; top: 90px; color:black; font-weight: lighter;}
 /*.circle {
 
   border-style:double ;
@@ -12,7 +14,16 @@ text-decoration: none ; }
   padding: 4px 4px 4px 4px;
   border-radius: 40%;
 }*/
-.R1{color: black}
+
+.computer{position: relative; top: 200px;}
+.avatar{ width: 250px;
+  height: 250px; 
+  position: relative; top: 150px;}
+.logo{position:relative;top: 25px;
+  width: 50px; height: 50px
+}
+.R1{color: black ;
+  position:relative;top: 6px;left: 75%;}
 .R1:hover{color: blueviolet;}
 .oval{
   border-width: 2px;
@@ -20,30 +31,46 @@ text-decoration: none ; }
     border-style:solid ;
     border-color:blueviolet;
     
-    border-radius: 30%;
+    border-radius: 30px;
   padding: 10px 10px 10px 10px;}
-.par{font-size: 19px; padding: 2px 2px 2px 2px; font-weight:lighter}
+.par{font-size: 19px; padding: 2px 2px 2px 2px; font-weight:lighter;padding-bottom:400px ;}
     .center {
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
-
+    .tp{color: blueviolet;}
+    .t6{font-size: 50px;font-weight:bolder;}
+    .padb{padding-bottom: 40px;}
+    .t5{color:blueviolet;padding-bottom: 20px;}
+    .t4{font-size:larger ;font-weight: bolder;padding: 30px 30px 30px 30px;}
+    .frontpic{width:50px; height:50px;}
+.t3{padding:  150px 20px 20px 20px; font-size: 30px; font-weight: bolder;}
     .par2{font-size: 15px;
     font-weight: lighter;
  padding: 10px 10px 10px 10px;}
+ .par2-B{font-size: 15px;
+  font-weight: lighter;
+padding: 10px 10px 40px 10px;}
     .container{
-  
-      background-color: blueviolet;
-      width:100%;
-      background-color: blueviolet;
+      background-color:blueviolet;text-align: center; position: relative;top: 169px; color: white; border-radius: 30px;
       }
+      .table{position:relative ;bottom:100px ; margin-left: auto;margin-right: auto; background-color: white;
+        border-radius: 20px; padding: 100px 100px 100px 100px; border:1px solid blueviolet}
 html{
   background-color: white;
     font-family: Arial, Helvetica, sans-serif;}
-    .pic2{border-radius: 30px; background-color: blue;}
+    .pic2
+    
+    {position: relative;top: 150px;
+      width:40% ;height:40%;
+      border-radius: 30px; background-color: blue;}
     .pic2:hover{opacity:0.3; ; 
     }
+    .par3-al{color:black;
+      font-size: large;
+    font-weight: bolder;
+      text-align: center;}
     .par3{color:black;
     font-size: large;
   font-weight: bolder;}
