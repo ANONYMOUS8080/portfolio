@@ -1,1 +1,270 @@
+:root{
+
+  --blueviolent:#8a2be2;
+  --black:#000000;
+  --white: #ffffff;
+  --blue:#0000FF;
+
+}
+
+
+html{
+
+  background-color: var(--white);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.NavLink1{
+
+  color: var(--black);
+  position:relative;
+  top: 0.5rem;
+  left: 75%;
+
+}
+
+
+.NavLink1:hover{
+
+  color: var(--blueviolent);
+
+}
+
+.logo{
+
+  position:relative;
+  top: 1.5rem;
+  width: 3.5rem; 
+  height: 3.5rem
+
+}
+
+
+.SoftEdges{
+
+  border-width: 0.1rem;
+  color: var(--blueviolent);
+  border-style:solid ;
+  border-color:var(--blueviolent);
+  border-radius: 3rem;
+  padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+
+}
+
+
+.NavLink2 {
+
+  position:relative;
+  top: 0.5rem;
+  left:76% ;
+  
+}
+
+
+.NavLink2:hover {
+
+  color:var(--white);
+  background-color:var(--blueviolent);
+
+}
+
+
+.centertext{
+  
+  text-align: center;
+
+}
+
+
+.HeaderTitle { 
+
+  position: relative; 
+  top: 4rem;color :var(--black);
+  font-weight: bold ;
+  font-size: xxx-large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.HeaderText { 
+
+  position: relative;
+  top: 5.5rem; 
+  color:var(--black); 
+  font-weight: lighter;
+
+}
+
+
+.center {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.avatar{
+
+  width: 16rem;
+  height: 16rem; 
+  position: relative; top: 8rem;
+
+}
+
+
+.computer{
+  
+  position: relative;
+  top: 12.5rem;
+
+}
+
+
+.container{
+
+  background-color:var(--blueviolent);
+  text-align: center;
+  position: relative;
+  top: 169px;
+  color: var(--white);
+  border-radius: 3rem;
+
+  }
+
+
+.BodyTitle{
+
+  padding:  10rem 2rem 2rem 2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+
+}
+
+
+.BodyPar{
+  
+  font-size: 1.5rem;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  font-weight:lighter;
+  padding-bottom:28rem ;
+
+}
+
+
+.table{
+  
+  position:relative ;
+  bottom:10rem ;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--white);
+  text-align: center;
+  border-radius: 1rem;
+  padding: 3rem 3rem 3rem 3rem;
+  border:0.05rem solid var(--blueviolent);
+
+}
+
+
+.frontEndpic{
+  
+  width:3.5rem;
+  height:3.5rem;
+
+}
+
+
+.TableTitle{
+  
+  font-size:larger ;
+  font-weight: bolder;
+  padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+
+}
+
+
+.TablePar{
+  
+  font-size: 1.2rem;
+  font-weight: lighter;
+padding: 1rem 1rem 1rem 1rem;
+
+}
+
+
+.TableHT{
+  
+  color:var(--blueviolent);
+  padding-bottom: 2rem;
+
+}
+
+
+.TableButtom{
+  
+  padding-bottom: 3rem;
+
+}
+
+
+.FooterTitle{
+  
+  font-size: 3rem;font-weight:bolder;
+
+}
+
+
+.FooterLink{
+  
+  color:var(--blueviolent);
+
+}
+
+
+a {
+
+  font-size: larger;
+  text-decoration: none ; 
+
+}
+
+   
+.TablePar--B{
+
+  font-size: 1.2rem;
+  font-weight: lighter;
+  padding-bottom: 4rem;
+
+}
+
+
+.FooterText{
+  
+  color:var(--black);
+  font-size: large;
+font-weight: bolder;
+
+}
+
+
+.FooterPic{
+  
+  position: relative;top: 9rem;
+  width:40% ;height:40%;
+  border-radius: 2rem; background-color: var(--blue);
+
+}
+
+
+.FooterPic:hover{
+  
+  opacity:0.3; 
+
+}
+   
 
