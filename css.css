@@ -17,21 +17,22 @@ html{
 1.5
 3
 */
-body {
+body{
   margin: 0;
   padding: 0;
 }
+
 .nav_mentorship{
-padding-right: calc(var(--spacer)*1.5);
+  padding-right: calc(var(--spacer)*1.5);
   color: var(--black);
 }
 
 .nav_mentorship:hover{
   color: var(--blueviolent);
-}.nav_maincontainer{
-  padding-top: calc(var(--spacer)*3);
+}
 
-  
+.nav_maincontainer{
+  padding-top: calc(var(--spacer)*3);
   display: flex;
   justify-content:space-around;
 }
@@ -43,9 +44,7 @@ padding-right: calc(var(--spacer)*1.5);
 .nav_logo{
   width: 3.5rem; 
   height: 3.5rem;
-  
 }
-
 
 .nav_sayhello {
   border-width:0.2rem;
@@ -85,22 +84,20 @@ padding-right: calc(var(--spacer)*1.5);
 
 .body_avatar{
   margin-top: calc(var(--spacer)*3);
- 
 }
 
 .body_computer{
   margin-top: calc(var(--spacer)*3);
 }
+
 .body_title_margin{
   margin-top: 0;
 }
-.body_purple_container{
 
+.body_purple_container{
   background-color:var(--blueviolent);
   text-align: center;
-
   color: var(--white);
-
 }
 
 .body_title{
@@ -126,7 +123,6 @@ padding-right: calc(var(--spacer)*1.5);
   border-radius: 1rem;
   padding: 3rem 3rem 3rem 3rem;
   border:0.05rem solid var(--blueviolent);
-  
 }
 
 
@@ -139,7 +135,7 @@ padding-right: calc(var(--spacer)*1.5);
 .body_frontend_table_paragraph{  
   font-size: calc(var(--spacer)1.5);
   font-weight: lighter;
-padding: var(--spacer) var(--spacer) var(--spacer) var(--spacer);
+  padding: var(--spacer) var(--spacer) var(--spacer) var(--spacer);
 }
 
 .body_frontend_table_semititels{
@@ -181,9 +177,6 @@ padding: var(--spacer) var(--spacer) var(--spacer) var(--spacer);
   
   width:30% ;height:30%;
   border-radius: calc(var(--spacer)*1.5);
-
-
-
 }
 
 .footer_pics:hover{  
@@ -192,23 +185,24 @@ padding: var(--spacer) var(--spacer) var(--spacer) var(--spacer);
 
 .footer_purple_container{
   margin-top: calc(var(--spacer)*3);
-padding-top: calc(var(--spacer)*3);
-padding-bottom: calc(var(--spacer)*3);
+  padding-top: calc(var(--spacer)*3);
+  padding-bottom: calc(var(--spacer)*3);
   background-color:var(--blueviolent);
   text-align: center;
-
   color: var(--white);
-
 }
+
 .footer_container_large_text{
   font-size: large;
   color: var(--white);
 }
+
 .footer_container_small_text{
   padding-top: calc(var(--spacer)*3);
   font-size: small;
   color: var(--white);
 }
+
 .footer_container_small_pic{
   width: 10%;
   height: auto;
